@@ -1,0 +1,26 @@
+{
+  "name": "require-reloader",
+  "version": "0.0.1",
+  "description": "reload modules required without restart the NodeJS program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codejie/require-reloader.git"
+  },
+  "keywords": [
+    "hot-reload"
+  ],
+  "author": "Jie.",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/codejie/require-reloader/issues"
+  },
+  "homepage": "https://github.com/codejie/require-reloader#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^4.0.0"
+  }
+}
