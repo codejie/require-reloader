@@ -2,7 +2,8 @@
 reload required modules without restart the NodeJS program.
 
 require-reloader does `not` watch file changes of Node project, actually it is used by calling reload() in code to reload the required modules.
-require-reloader is a `simple' and 'non-dependecies' module to reload required modules in runtime way.
+
+require-reloader is a `simple` and `non-dependecies` module to reload required modules in runtime way.
 
 ## Install
 
@@ -21,6 +22,9 @@ Wrapper.load(moduleName, moduleFile)
 
 Wrapper.reload(moduleName)
     moduleName: module name will be used;
+
+Wrapper.moduleName
+    access the module by moduleName;    
 
 ```
 
