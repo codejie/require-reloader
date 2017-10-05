@@ -1,6 +1,6 @@
 'use strict'
 
-const path = require('path');
+// const path = require('path');
 
 const Wrapper = {
 
@@ -8,7 +8,7 @@ const Wrapper = {
 
     load: function (name, file) {
         if (this[name] == undefined) {
-            this.cache[name] = path.join(__dirname, file);
+            this.cache[name] = file;//path.join(__dirname, file);
             this[name] = require(this.cache[name]);
         }
         return this;

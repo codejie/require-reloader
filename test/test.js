@@ -1,8 +1,9 @@
 'use strict'
 
+const path = require('path');
 const assert = require('assert');
 
-const Wrapper = require('../').load('obj', './test/obj.js');
+const Wrapper = require('../').load('obj', path.join(__dirname, './obj.js'));
 const maker = require('./make-obj');
 
 maker.createClass(2, 2, 4);
@@ -46,7 +47,7 @@ describe('test Class', () => {
     let a = null;
     before(() => {
         maker.createClass(1, 2);
-        Wrapper.load('cls', './test/cls.js');
+        Wrapper.load('cls', path.join(__dirname, './cls.js'));
     });
 
     after(() => {
