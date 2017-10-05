@@ -1,6 +1,6 @@
 {
   "name": "require-reloader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "reload modules required without restart the NodeJS program.",
   "main": "index.js",
   "scripts": {
